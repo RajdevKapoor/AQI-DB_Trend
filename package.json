@@ -1,0 +1,44 @@
+{
+	"name": "example-create-react-app-express",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "react-scripts start",
+		"client": "yarn start",
+		"server": "nodemon server.js",
+		"dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+	},
+	"dependencies": {
+		"@emotion/react": "^11.10.5",
+		"@emotion/styled": "^11.10.5",
+		"@mui/icons-material": "^5.10.9",
+		"@mui/material": "^5.10.12",
+		"@testing-library/jest-dom": "^5.16.5",
+		"@testing-library/react": "^13.4.0",
+		"@testing-library/user-event": "^13.5.0",
+		"axios": "^1.2.0",
+		"cors": "^2.8.5",
+		"oracledb": "^5.5.0",
+		"react": "^18.2.0",
+		"react-countup": "^6.4.0",
+		"react-router-dom": "^6.4.3",
+		"react-scripts": "^5.0.1",
+		"recharts": "^2.1.16"
+	},
+	"devDependencies": {
+		"concurrently": "^7.6.0",
+		"nodemon": "^2.0.20",
+		"web-vitals": "^3.1.0"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
