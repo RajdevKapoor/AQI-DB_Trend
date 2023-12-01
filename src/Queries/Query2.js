@@ -68,22 +68,14 @@ export default function Query2() {
 	return (
 		<div>
 			<Navbar />
+			<center>
+				<h1>"Hello"</h1>
+			</center>
 			<br />
 			<br />
 			<br />
 			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
+
 			<Button className="genbut" onClick={handleclick} variant="contained">
 				Generate
 			</Button>

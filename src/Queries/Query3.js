@@ -80,11 +80,12 @@ export default function Query3() {
 	return (
 		<div>
 			<Navbar />
+			<center>
+				<h1>"Hello"</h1>
+			</center>
 			<br />
 			<br />
-			<br />
-			<br />
-			<br />
+
 			<Grid container spacing={1}>
 				<Grid item xs={6}>
 					<Box sx={{ width: 400, marginLeft: '30%' }}>
@@ -125,19 +126,43 @@ export default function Query3() {
 					</Box>
 				</Grid>
 			</Grid>
-			<br />
-			<br />
-			<Button className="genbut" m="auto" variant="contained" onClick={handlerequest}>
-				Generate
-			</Button>
 
-			<div class="q1">
+			<div>
+				<Button className="genbut" m="auto" variant="contained" onClick={handlerequest}>
+					Generate
+				</Button>
+			</div>
+			<br />
+			<Button className="genbut" m="auto" variant="contained" style={{ backgroundColor: 'red', color: 'white' }}>
+				Q1
+			</Button>
+			<Button className="genbut" m="auto" variant="contained" style={{ backgroundColor: 'blue', color: 'white' }}>
+				Q2
+			</Button>
+			<Button
+				className="genbut"
+				m="auto"
+				variant="contained"
+				style={{ backgroundColor: 'Green', color: 'white' }}
+			>
+				Q3
+			</Button>
+			<Button
+				className="genbut"
+				m="auto"
+				variant="contained"
+				style={{ backgroundColor: 'yellow', color: 'white' }}
+			>
+				Q4
+			</Button>
+			<div className="grouped">
 				<BarChart width={700} height={400} data={data} barSize={50}>
 					<Bar dataKey="Q1" stackId="a" fill="red" />
 					<Bar dataKey="Q2" stackId="b" fill="blue" />
 					<Bar dataKey="Q3" stackId="c" fill="Green" />
 					<Bar dataKey="Q4" stackId="d" fill="yellow" />
 					<Tooltip />
+
 					<XAxis dataKey="name" />
 					<YAxis />
 				</BarChart>

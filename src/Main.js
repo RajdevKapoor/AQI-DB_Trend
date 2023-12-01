@@ -25,19 +25,23 @@ export default function Main() {
 			<Navbar />
 
 			<span className="head">
-				<p>USAQIR</p>
+				<p>AQIUS</p>
 			</span>
 
 			<div>
 				<Grid container spacing={2}>
-					<Grid item xs={6}>
+					<Grid item xs={5}>
 						<div className="usp">
 							<img src={image} />
 						</div>
 					</Grid>
-					<Grid item xs={6}>
+					<Grid item xs={5}>
 						<div className="usp">
-							<p>fndfkndkafidfidf</p>
+							<h4>
+								Researching the Air Quality Index (AQI) in the USA is crucial for safeguarding public
+								health, informing environmental policies, and addressing the interconnected challenges
+								of air pollution and climate change
+							</h4>
 						</div>
 					</Grid>
 				</Grid>

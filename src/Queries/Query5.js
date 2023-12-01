@@ -81,20 +81,9 @@ export default function Query5() {
 	return (
 		<div>
 			<Navbar />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
+			<center>
+				<h1>"Hello"</h1>
+			</center>
 			<br />
 			<br />
 			<Grid container spacing={2}>

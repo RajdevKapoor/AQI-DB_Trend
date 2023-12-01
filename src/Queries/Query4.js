@@ -117,11 +117,12 @@ export default function Query4() {
 		<div>
 			<Navbar />
 
+			<center>
+				<h1>"Hello"</h1>
+			</center>
 			<br />
 			<br />
-			<br />
-			<br />
-			<br />
+
 			<Grid container spacing={2}>
 				<Grid item xs={6}>
 					<Box m="auto" sx={{ width: 400, marginLeft: '30%' }}>
